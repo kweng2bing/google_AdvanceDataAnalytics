@@ -54,3 +54,16 @@
 #### Normal Distributions
 
 
+## Sampling
+
+**Sample**
+
+**Population**
+
+### Stages of Sampling Process
+
+1. Identify the target population
+2. Select the sampling frame
+3. Choose the sampling method
+4. Determine the sample size 
+5. Collect the sample data
