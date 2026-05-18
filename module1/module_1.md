@@ -35,7 +35,41 @@
 
 
 ## PACE
-Plan
-Analyze
-Construct
-Execute
+**Plan**: conceptualize the scope of the project and develop the steps that will guide you through the process of completing a project. 
+* Research business data
+* Define the project scope
+* Develop a workflow
+* Assess project and/or stakeholder needs
+
+**Analyze**: collect, prepare, and analyze all of the data for your project.
+* Format database
+* Scrub data
+* Convert data into usable formats
+
+**Construct**:build models that will allow you access to hidden relationships locked within data.
+* Select modeling approach
+* Build models
+* Build machine learning algorithms
+
+**Execute**:  present the finding of your analysis, receive feedback, and make revisions as necessary.
+* Share results
+* Present findings to other stakeholders
+* Address feedback
+
+### Plan Stage
+* How can you best prepare to understand and organize the provided information
+* What follow-along and self-review codebooks will help you perform this work?
+* What are some additional acitivites a resoruceful learner would perform before starting to code?
+
+### Analyze Stage
+* WIll the available information be sufficient to achieve the goal based on your intuition and the analysis of the variables?
+* How would you build summary dataframe statistics and assess the min and max range of the data
+* Do the averages of any of the data variables look unusual? Can you descirbe the interval data?
+
+### Construct
+
+
+### Execute
+* Given your current knowledge of the data, what would you intially recommend to your manger to investifate further prior to performing exploratory data analysis.
+* WHat data initally presents as contianing anomiles
+* What additional types of data could strengthen this dataset
