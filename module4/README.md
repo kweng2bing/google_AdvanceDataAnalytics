@@ -99,3 +99,16 @@ $$
 $$
 \frac{1}{n} \sum (y_i - \hat{y}_i)^{2}
 $$
+
+
+
+Confusion Matrix
+
+
+Precision 
+
+> Of all those predicted positive, how many are actually positive 
+
+
+Recall
+>  Of all those actually positive, how many are predicted to be positive
