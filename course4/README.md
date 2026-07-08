@@ -294,3 +294,14 @@ Precision
 
 Recall
 >  Of all those actually positive, how many are predicted to be positive
+
+Accuracy
+TODO
+
+ROC Curve
+
+TODO
+
+# Module 6
+
+![img](hypothesis_testing_flow_chart.png)
