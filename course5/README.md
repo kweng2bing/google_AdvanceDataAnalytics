@@ -89,3 +89,33 @@ $$
 
 
 ![](other_cluster_alg.png)
+
+
+# Tree-Based Modelling
+
+Decision trees are a flowchart-like structure that uses branching paths to predict the outcomes of events, the probability of certain outcomes, or to reach a decision. They can be used for classification problems, where a specific class or outcome is predicted—like whether or not a sports team will win a game.
+
+
+
+
+## Splitting 
+* Metrics to use to determine purity of a node & decision for splitting
+* Goal is to always split based on high purity
+### Gini Impurity
+
+$$
+= 1 - \sum\limits_{i=1}^{N} P(i)^{2}
+$$
+* where $P(i)$ is the probability of samples belonging to class $i$ in a give node
+
+
+* Scores clos
+### Entropy
+
+
+### Information Gain
+
+### Log Loss
+
+
+
