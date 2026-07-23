@@ -45,6 +45,36 @@ Feature extraction involves producing new features from existing ones, with the 
 ## Upsampling
 Upsampling is basically the opposite of downsampling, and is done when the dataset doesn't have a very large number of observations in the first place.
 
+
+
+# Naive Bayes
+
+Bayes’ Theorem, an equation that can be used to calculate the probability of an outcome or class, given the values of predictor variables
+
+$$
+P(A | B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+ => One of the biggest problems with Naive Bayes is features are truly conditionally independent features. It is something that is very rare in the world today. However, Naive Bayes models can still perform well even if the assumption of conditional independence is violated
+
+
+
+### Sci-kit Learn
+
+* `BernoulliNB`: Used for binary/Boolean features 
+
+* `CategoricalNB`: Used for categorical features
+
+* `ComplementNB`: Used for imbalanced datasets, often for text classification tasks
+
+* `GaussianNB`: Used for continuous features, normally distributed features
+
+* `MultinomialNB`: Used for multinomial (discrete) features
+
+### Jupyter Notebook
+
+![](Construct%20a%20Naive%20Bayes%20model%20with%20Python.ipynb)
+
 # K-Means
 
 
@@ -91,6 +121,10 @@ $$
 ![](other_cluster_alg.png)
 
 
+## K-means Jupyter Notebooks
+
+![](KmeansforcolorcompressionwithPython.ipynb)
+
 # Tree-Based Modelling
 
 Decision trees are a flowchart-like structure that uses branching paths to predict the outcomes of events, the probability of certain outcomes, or to reach a decision. They can be used for classification problems, where a specific class or outcome is predicted—like whether or not a sports team will win a game.
@@ -100,7 +134,7 @@ Decision trees are a flowchart-like structure that uses branching paths to predi
 
 ## Splitting 
 * Metrics to use to determine purity of a node & decision for splitting
-* Goal is to always split based on high purity
+* Goal is to always split based on highest purity
 ### Gini Impurity
 
 $$
@@ -117,5 +151,7 @@ $$
 
 ### Log Loss
 
+## Jupyter Notebooks
 
+![](Build%20a%20decision%20tree%20with%20Python.ipynb)
 

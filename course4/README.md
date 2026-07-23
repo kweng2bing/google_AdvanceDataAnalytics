@@ -284,23 +284,60 @@ $f: [0,1) \rightarrow [-\infty, \infty]$
 
 $$logit(p) = log (\frac{p}{1-p}) = \beta_0 + \sum\limits_{i \to n} \beta_i X_i$$
 
+
+## Metrics
 Confusion Matrix
 
 
-Precision 
+### Precision 
 
 > Of all those predicted positive, how many are actually positive 
 
 
-Recall
+$$
+\frac{TP}{TP+FP}
+$$
+
+### Recall
 >  Of all those actually positive, how many are predicted to be positive
 
-Accuracy
-TODO
+$$
+\frac{TP}{TP + FN}
+$$
 
-ROC Curve
+### Accuracy
 
-TODO
+$$
+\frac{TP + TN}{TP+TN +FP + FN}
+$$
+
+### F1 Score
+
+Harmonic mean of precision and recall
+
+$$
+F_{1} = 2 \cdot \frac{P \cdot R}{P + R}
+$$
+
+### Precision-Recall Curves
+A precision-recall curve is a way to visualize the performance of a classifier at different decision thresholds
+
+
+### ROC Curve
+Receiver operating characteristic (ROC) curves are similar to precision-recall curves in that they visualize the performance of a classifier at different decision thresholds. However, this curve is a plot of the true positive rate against the false positive rate.
+* True Positive Rate ===Recall
+* False Positive Rate
+$$
+\frac{FP}{FP+TN}
+$$
+
+* An ideal model perfectly separates all negatives from all positives, and gives all real positive cases a very high probability and all real negative cases a very low probability. 
+### AUC
+
+
+### $F_{\beta}$ Score
+
+
 
 # Module 6
 
