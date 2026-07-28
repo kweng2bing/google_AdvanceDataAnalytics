@@ -103,7 +103,7 @@ $$
 Silhouette score is the mean of the silhouette coefficients of all the observations in a k-means model
 
 ### Silhouette coefficient
-* $f: \to [-1,1]$ where values closer to $1$ represesnts closer to its own cluster; likewise, $-1$ represents closer to points of another cluster
+* $f: \R \to [-1,1]$ where values closer to $1$ represesnts closer to its own cluster; likewise, $-1$ represents closer to points of another cluster
 
 $$
 \frac{(b-a)}{\max (a,b)}
@@ -155,3 +155,14 @@ $$
 
 ![](Build%20a%20decision%20tree%20with%20Python.ipynb)
 
+
+
+# Bagging
+
+## Bootstrap Aggregation
+
+Bootstrapping refers to sampling with replacement
+
+## Ensemble learning
+
+Ensemble learning refers to building multiple models and aggregating their predictions
