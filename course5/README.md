@@ -151,7 +151,7 @@ $$
 
 ### Log Loss
 
-## Jupyter Notebooks
+### Jupyter Notebooks
 
 ![](Build%20a%20decision%20tree%20with%20Python.ipynb)
 
@@ -166,3 +166,7 @@ Bootstrapping refers to sampling with replacement
 ## Ensemble learning
 
 Ensemble learning refers to building multiple models and aggregating their predictions
+
+
+## Random Forest
+a bagging ensemble of decision trees but take it one step further by randomizing the features used to train each base learner, the result is called a random forest.
