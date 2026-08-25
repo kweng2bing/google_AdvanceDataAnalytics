@@ -158,15 +158,18 @@ $$
 
 
 # Bagging
-
-## Bootstrap Aggregation
-
+Bagging = Bootstrap +  Aggregating
+## Bootstrap 
 Bootstrapping refers to sampling with replacement
 
-## Ensemble learning
+## Aggregating/Ensemble learning
 
 Ensemble learning refers to building multiple models and aggregating their predictions
 
+### Benefits
+* Multiple Models $\rightarrow$ Reduces Variances 
+* Parallelizable $\rightarrow$ Fast
+* Big Data
 
 ## Random Forest
-a bagging ensemble of decision trees but take it one step further by randomizing the features used to train each base learner, the result is called a random forest.
+A bagging ensemble of decision trees but take it one step further by randomizing the features used to train each base learner, the result is called a random forest.
